@@ -1,6 +1,5 @@
 /*
    Copyright (c) 2016, The CyanogenMod Project
-   Copyright (C) 2019 The LineageOS Project.
 
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are
@@ -27,15 +26,28 @@
    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#include <cstdlib>
+#include <fstream>
+#include <string.h>
 #include <sys/sysinfo.h>
+#include <unistd.h>
+
+#include <android-base/properties.h>
+#define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
+#include <sys/_system_properties.h>
 
 #include "vendor_init.h"
 #include "property_service.h"
 
-char const *heapgrowthlimit;
-char const *heapminfree;
-
+using android::base::GetProperty;
 using android::init::property_set;
+
+char const *heapstartsize;
+char const *heapgrowthlimit;
+char const *heapsize;
+char const *heapminfree;
+char const *heapmaxfree;
+char const *heaptargetutilization;
 
 void check_device()
 {
@@ -43,25 +55,33 @@ void check_device()
 
     sysinfo(&sys);
 
-    if (sys.totalram > 2048ull * 1024 * 1024) {
-        // from - Stock rom
+    if (sys.totalram > 3072ull * 1024 * 1024) {
+        // from - phone-xxhdpi-4096-dalvik-heap.mk
+        heapstartsize = "8m";
         heapgrowthlimit = "256m";
-        heapminfree = "4m";
+        heapsize = "512m";
+        heaptargetutilization = "0.6";
+        heapminfree = "8m";
+        heapmaxfree = "16m";
     } else {
-        // from - phone-xxhdpi-2048-dalvik-heap.mk
+        // from - phone-xhdpi-2048-dalvik-heap.mk
+        heapstartsize = "8m";
         heapgrowthlimit = "192m";
-        heapminfree = "2m";
-   }
+        heapsize = "512m";
+        heaptargetutilization = "0.75";
+        heapminfree = "512k";
+        heapmaxfree = "8m";
+    }
 }
 
 void vendor_load_properties()
 {
     check_device();
 
-    property_set("dalvik.vm.heapstartsize", "16m");
+    property_set("dalvik.vm.heapstartsize", heapstartsize);
     property_set("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
-    property_set("dalvik.vm.heapsize", "512m");
-    property_set("dalvik.vm.heaptargetutilization", "0.75");
+    property_set("dalvik.vm.heapsize", heapsize);
+    property_set("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_set("dalvik.vm.heapminfree", heapminfree);
-    property_set("dalvik.vm.heapmaxfree", "8m");
+    property_set("dalvik.vm.heapmaxfree", heapmaxfree);
 }
