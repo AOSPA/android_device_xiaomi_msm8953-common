@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "64620009_d0d86c5a",
+        "filename": "rootdir/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-26T19:09:38Z",
+      "side": 1,
+      "message": "Should we just use an A/B flag instead of device flags?",
+      "revId": "9dd389d8e83a3f046e5f0ca4d61bee86c4f07f5c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}

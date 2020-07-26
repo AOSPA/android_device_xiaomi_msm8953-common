@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cd704346_c487875f",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-26T19:09:38Z",
+      "side": 0,
+      "message": "Can we not use the same kernel source? (We have 4 8953 xiaomi kernel sources and can ideally unify at least some of those)",
+      "revId": "076d15f8ac125a7db4a63e3f85c04c5de84ca53f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
