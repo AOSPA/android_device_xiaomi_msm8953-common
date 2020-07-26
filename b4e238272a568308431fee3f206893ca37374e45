@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eee8172c_8dcb0dec",
+        "filename": "rootdir/init.target.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-26T19:07:42Z",
+      "side": 1,
+      "message": "You already have an on boot trigger above and should move this there.",
+      "revId": "b4e238272a568308431fee3f206893ca37374e45",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "081e5f74_a9766a93",
+        "filename": "sepolicy/hal_power_default.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-26T19:07:42Z",
+      "side": 1,
+      "message": "These rules aren\u0027t great and should ideally use macros",
+      "revId": "b4e238272a568308431fee3f206893ca37374e45",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
