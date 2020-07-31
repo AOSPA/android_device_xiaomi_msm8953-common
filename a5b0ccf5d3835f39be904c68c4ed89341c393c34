@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8830c965_618b731b",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-07-31T18:41:48Z",
+      "side": 0,
+      "message": "Already defined on qcom/common",
+      "revId": "a5b0ccf5d3835f39be904c68c4ed89341c393c34",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "999d74ce_7339ffcf",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-07-31T18:41:48Z",
+      "side": 0,
+      "message": "Already defined on qcom/common",
+      "revId": "a5b0ccf5d3835f39be904c68c4ed89341c393c34",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b44ca1b1_cfabbdf4",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-07-31T18:41:48Z",
+      "side": 0,
+      "message": "Already defined on qcom/common",
+      "revId": "a5b0ccf5d3835f39be904c68c4ed89341c393c34",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "74cab5cb_402c1d8d",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-07-31T18:41:48Z",
+      "side": 0,
+      "message": "Already define on qcom/common",
+      "revId": "a5b0ccf5d3835f39be904c68c4ed89341c393c34",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "31e6c942_fa4ea05f",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 534,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-07-31T18:41:48Z",
+      "side": 0,
+      "message": "Already define on qcom/common",
+      "revId": "a5b0ccf5d3835f39be904c68c4ed89341c393c34",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a61b265a_d896001e",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 535,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-07-31T18:41:48Z",
+      "side": 0,
+      "message": "Already define on qcom/common",
+      "revId": "a5b0ccf5d3835f39be904c68c4ed89341c393c34",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
