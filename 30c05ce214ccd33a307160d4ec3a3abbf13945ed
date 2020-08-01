@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "22670ece_b7513ce8",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-01T04:03:46Z",
+      "side": 1,
+      "message": "I\u0027ll look into if we should have these files in common",
+      "revId": "30c05ce214ccd33a307160d4ec3a3abbf13945ed",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "53b6ac77_9ba6fd18",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 600,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-01T04:03:46Z",
+      "side": 1,
+      "message": "are you sure about these and the other vendor changes?",
+      "revId": "30c05ce214ccd33a307160d4ec3a3abbf13945ed",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}

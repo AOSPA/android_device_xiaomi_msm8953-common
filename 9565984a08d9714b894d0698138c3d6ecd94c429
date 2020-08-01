@@ -16,6 +16,23 @@
       "revId": "9565984a08d9714b894d0698138c3d6ecd94c429",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4ebbe97f_8bad201d",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 837,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-01T04:03:46Z",
+      "side": 0,
+      "message": "do these belong here?",
+      "revId": "9565984a08d9714b894d0698138c3d6ecd94c429",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
