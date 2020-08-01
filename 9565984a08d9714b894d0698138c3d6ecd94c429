@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "047afc83_fbfc1e9d",
+        "filename": "msm8953.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-01T03:03:51Z",
+      "side": 0,
+      "message": "the highest version is dependent on the lower versions, so you don\u0027t need to define 1.2 or 1.3, same for radio config",
+      "revId": "9565984a08d9714b894d0698138c3d6ecd94c429",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
