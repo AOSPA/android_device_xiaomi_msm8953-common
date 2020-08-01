@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b735fef2_e7fa4ec4",
+        "filename": "msm8953.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-01T03:47:05Z",
+      "side": 1,
+      "message": "hidl wrapper and telephony utils are both defined in vendor/pa/config/telephony.mk",
+      "revId": "2acb789c0f6b69b2d62ab7483fec125bea240bf9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2d0c9c1c_3d40463b",
+        "filename": "msm8953.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-01T03:47:05Z",
+      "side": 1,
+      "message": "telephony-ext is defined in telephony.mk as well",
+      "revId": "2acb789c0f6b69b2d62ab7483fec125bea240bf9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
