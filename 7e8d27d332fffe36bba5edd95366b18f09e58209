@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "11a7f1c8_b09be145",
+        "filename": "rootdir/init.qcom.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 335,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-09T03:18:52Z",
+      "side": 0,
+      "message": "is this not needed?",
+      "revId": "7e8d27d332fffe36bba5edd95366b18f09e58209",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
