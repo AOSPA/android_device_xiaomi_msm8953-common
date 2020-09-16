@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c88b9bba_31f1f20c",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2020-09-16T14:53:42Z",
+      "side": 1,
+      "message": "*/vintf/ would be better I guess.",
+      "revId": "e89940e385da9ad905303bf0ffec0b034e12d474",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "89b70ce6_74c5fe43",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2020-09-16T14:53:42Z",
+      "side": 1,
+      "message": "Should be sepolicy/vendor\n1 demerit",
+      "revId": "e89940e385da9ad905303bf0ffec0b034e12d474",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
